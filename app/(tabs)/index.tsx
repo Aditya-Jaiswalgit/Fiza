@@ -15,11 +15,7 @@ import "../globals.css";
 
 export default function Index() {
   return (
-    <SafeAreaView
-      className="flex-1 bg-white"
-      style={{ flex: 1 }}
-      edges={["top"]}
-    >
+    <SafeAreaView className="flex-1 bg-white" style={{ flex: 1 }}>
       <FlatList
         data={offers}
         renderItem={({ item, index }) => {
